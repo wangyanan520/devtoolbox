@@ -22,37 +22,6 @@ const router = createRouter({
       },
     },
     {
-      path: '/yaml-json',
-      name: 'yaml-json',
-      component: () => import('@/views/YamlConverterTool.vue'),
-      meta: {
-        title: 'YAML/JSON 互转',
-        icon: '\u21C4',
-      },
-    },
-    {
-      path: '/saasyy-downloader',
-      name: 'saasyy-downloader',
-      component: () => import('@/views/SaasyyDownloaderTool.vue'),
-      meta: {
-        title: 'SaaSSY 下载器',
-        icon: '\u2B07',
-      },
-    },
-    {
-      path: '/html-to-pdf',
-      name: 'html-to-pdf',
-      component: () => import('@/views/HtmlToPdfTool.vue'),
-      meta: {
-        title: 'HTML 转 PDF',
-        icon: '\uD83D\uDCC4',
-      },
-    },
-    {
-      path: '/saasyy-pdf-converter',
-      redirect: '/saasyy-downloader',
-    },
-    {
       path: '/:pathMatch(.*)*',
       redirect: '/',
     },

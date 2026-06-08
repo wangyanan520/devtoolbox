@@ -14,17 +14,9 @@ const toolGroups = [
     ],
   },
   {
-    name: '批量下载',
-    tools: [
-      { id: 'saasyy-downloader', name: '批量下载器', icon: 'DL', route: '/saasyy-downloader', desc: 'SaaSSY 下载 / 通用网页抓取', disabled: false },
-    ],
-  },
-  {
     name: '工具',
     tools: [
       { id: 'json', name: 'JSON 编辑器', icon: '{ }', route: '/json', desc: '编辑、格式化、验证 JSON', disabled: false },
-      { id: 'yaml-json', name: 'YAML/JSON 互转', icon: '<>', route: '/yaml-json', desc: 'YAML 与 JSON 双向实时转换', disabled: false },
-      { id: 'html-to-pdf', name: 'HTML 转 PDF', icon: 'HP', route: '/html-to-pdf', desc: 'HTML 文件转为 PDF 文档', disabled: false },
       { id: 'base64', name: 'Base64 编解码', icon: 'B64', route: '/base64', desc: 'Base64 编码与解码', disabled: true },
       { id: 'regex', name: '正则表达式', icon: '.*', route: '/regex', desc: '正则测试与调试', disabled: true },
       { id: 'diff', name: '文本对比', icon: '<>', route: '/diff', desc: '对比两段文本差异', disabled: true },
